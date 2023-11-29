@@ -1,0 +1,17 @@
+name: Print Success Response
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  print-success:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Print Success
+      run: echo "Success: Code pushed or merged to master branch."
