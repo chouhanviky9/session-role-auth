@@ -14,4 +14,4 @@ jobs:
       uses: actions/checkout@master
 
     - name: Print Success
-      run: echo "Success: Code pushed or merged to master branch."
+      run: echo "Success Code pushed or merged to master branch."
